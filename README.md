@@ -1,3 +1,6 @@
+## StoutLogic Note:
+Need to use this fork until TGM Plugin Activation fixes its composer autoload (hoping for version 3.0). Othwerise many of StoutLogic/Understory packages are unable to run tests with phpunit, because phpunit autoloads classes and the file that TGM Plugin Activation autoloads depends on WordPress functions that are not available at the time of autoload. 
+
 # TGM Plugin Activation
 [![GitHub license](https://img.shields.io/badge/license-GPLv2-blue.svg)](https://raw.githubusercontent.com/TGMPA/TGM-Plugin-Activation/develop/LICENSE.md)
 [![Build Status](https://travis-ci.org/TGMPA/TGM-Plugin-Activation.svg?branch=develop)](https://travis-ci.org/TGMPA/TGM-Plugin-Activation)
